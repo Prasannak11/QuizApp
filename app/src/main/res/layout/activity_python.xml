@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Python"
+    android:background="#ffb300">
+
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/DispName"
+        android:layout_alignStart="@+id/DispName"
+        android:id="@+id/answersgrp"
+        android:clickable="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp">
+        <!--android:layout-->
+        <!--android:checkedButton="@+id/radioButton"-->
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:id="@+id/r1"
+            android:checked="false"
+            android:textStyle="bold"
+            />
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="B"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:id="@+id/r3"
+            android:checked="false"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:id="@+id/r4"
+            android:checked="false"
+            android:textStyle="bold"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answersgrp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:background="#FF5722"
+        android:text="Next Question"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bquit"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bnext"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:background="#01579B"
+        android:text="Quit"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Questions"
+        android:id="@+id/tvque"
+        android:layout_marginBottom="52dp"
+        android:layout_above="@+id/answersgrp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginBottom="49dp"
+        android:text="Your Score"
+        android:textAppearance="@color/abc_background_cache_hint_selector_material_dark"
+        android:textColor="#000000"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="92dp"
+        android:layout_marginBottom="49dp"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textAlignment="center"
+        android:textAppearance="@color/abc_background_cache_hint_selector_material_dark"
+        android:textColor="#000000"
+        android:textSize="19dp" />
+
+</RelativeLayout>
+

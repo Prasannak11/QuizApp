@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:background="@drawable/img"
+    >
+
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginBottom="345dp"
+        android:background="#FDD835"
+        android:text="RESTART"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        app:backgroundTint="#FDD835" />
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="428dp"
+        android:background="#FDD835"
+        android:gravity="center"
+        android:text="VIEW RESULT"
+        android:textColor="#0E0D0D"
+        app:backgroundTint="#FDD835"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="258dp"
+        android:background="#FDD835"
+        android:gravity="center"
+        android:text="LOG OUT"
+        android:textColor="#090909"
+        android:textStyle="bold"
+        app:backgroundTint="#FDD835" />
+
+
+</RelativeLayout>

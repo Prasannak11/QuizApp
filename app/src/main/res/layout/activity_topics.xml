@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <GridLayout
+        android:columnCount="1"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#ffb300">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="102dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/python" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Python"
+                android:textStyle="bold"
+                android:layout_marginTop="120dp"
+                android:textSize="35dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It is an interpreted high-level general-purpose programming language."
+                android:background="#ffb300"
+                android:layout_marginTop="182dp"
+                android:textSize="22dp"></TextView>
+            <Button
+                android:layout_width="85dp"
+                android:id="@+id/button9"
+                android:layout_height="85dp"
+                android:layout_marginTop="263dp"
+                android:layout_marginLeft="250dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="View Quiz"
+                android:layout_marginRight="30dp"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#ffb300"
+            >
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="102dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/scientist" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Data Science"
+                android:textStyle="bold"
+                android:layout_marginTop="120dp"
+                android:textSize="35dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" It encompasses preparing data for analysis,cleansing and manipulating the data to perform advanced data analysis."
+                android:background="#ffb300"
+                android:layout_marginTop="168dp"
+                android:textSize="22dp"
+                ></TextView>
+            <Button
+                android:layout_width="85dp"
+                android:id="@+id/button5"
+                android:layout_height="85dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginLeft="250dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="View Quiz"
+                android:layout_marginRight="30dp"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#ffb300"
+            >
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="102dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/operationalsystem" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operating System"
+                android:textStyle="bold"
+                android:layout_marginTop="120dp"
+                android:textSize="35dp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dp"
+                android:background="#ffb300"
+
+                android:text="It is system software that manages computer hardware and software resources provides common services for computer programs"
+                android:textSize="22dp"></TextView>
+            <Button
+                android:layout_width="85dp"
+                android:id="@+id/button111"
+                android:layout_height="85dp"
+                android:layout_marginTop="283dp"
+                android:layout_marginLeft="250dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="View Quiz"
+                android:layout_marginRight="30dp"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="#ffb300"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="102dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/android" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:textStyle="bold"
+                android:text="Android"
+                android:textSize="35dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="168dp"
+                android:background="#ffb300"
+                android:text="It is a Linux-based operating system it is designed primarily for touch screens mobile devices such as smartphones and tablet computers."
+                android:textSize="22dp"></TextView>
+            <Button
+                android:layout_width="85dp"
+                android:id="@+id/button8"
+                android:layout_height="85dp"
+                android:layout_marginTop="282dp"
+                android:layout_marginLeft="250dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="View Quiz"
+                android:layout_marginRight="30dp"
+                />
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</ScrollView>
